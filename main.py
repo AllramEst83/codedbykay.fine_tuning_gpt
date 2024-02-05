@@ -123,9 +123,14 @@ def generate_text(prompt, max_length=50, temperature=1.0, num_return_sequences=1
         print(f"Generated Text {i+1}: {text}")
 
 def main():
-    check_and_load_model()
-    prompt = "The future of AI in society is"
-    generate_text(prompt, max_length=50, temperature=0.7, num_return_sequences=3)
+    choice = input("Enter your choice (1: Load Model, 2: Generate Text): ")
+    if choice == "1":
+        check_and_load_model()
+    elif choice == "2":
+        prompt = input("Enter the prompt: ")
+        generate_text(prompt, max_length=50, temperature=0.7, num_return_sequences=3)
+    else:
+        print("Invalid choice.")
 
 if __name__ == "__main__":
     main()
