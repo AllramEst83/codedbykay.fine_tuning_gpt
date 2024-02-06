@@ -85,7 +85,7 @@ If you're limited by the GPU memory and hence using a very small batch size, you
 
 
 
-### Test questions for the wikitext-103-v1 dataset
+### Test questions for the wikitext-2-v1 dataset
 
 - "In 2005, the Nobel Prize in Physics was awarded to John L. Hall and Theodor W. Hänsch for their work on precision spectroscopy and optical frequency combs."
 
