@@ -1,5 +1,6 @@
 from datasets import load_dataset
-from transformers import GPT2Tokenizer, GPT2LMHeadModel, AdamW
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+from torch.optim import AdamW 
 from torch.utils.data import Dataset, DataLoader
 import torch
 import os
@@ -41,7 +42,8 @@ def tokenize_function(examples):
 def train_model():
     global model  # Declare model as global to modify the global instance
     print("Downloading and loading the dataset...")
-    dataset = load_dataset('wikitext', 'wikitext-103-v1')
+    # wikitext-103-v1
+    dataset = load_dataset('wikitext', 'wikitext-2-v1')
     print("Dataset successfully downloaded and loaded.")
     
     print("Tokenizing the dataset. This might take a while...")
