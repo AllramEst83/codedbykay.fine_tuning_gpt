@@ -21,8 +21,8 @@ This project fine-tunes the GPT-2 model from Hugging Face's Transformers library
 Clone the repository and install the required Python packages:
 
 ```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
+git clone https://github.com/AllramEst83/codedbykay.fine_tuning_gpt
+cd codedbykay.fine_tuning_gpt
 pip install -r requirements.txt
 ```
 
