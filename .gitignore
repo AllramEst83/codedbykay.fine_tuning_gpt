@@ -144,3 +144,6 @@ cython_debug/
 
 # Model and tokenizer - specific to your project
 model/
+
+# Dataset files
+dataset/
