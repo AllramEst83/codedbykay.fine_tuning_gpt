@@ -6,10 +6,15 @@ This project fine-tunes the GPT-2 model from Hugging Face's Transformers library
 
 ### Dependencies
 
-- Python 3.8+
-- PyTorch
-- Hugging Face's Transformers
-- Datasets library
+- Python 3.8+: A general-purpose programming language.
+- PyTorch: A deep learning framework for neural network development.
+- Hugging Face's Transformers: A library for natural language processing tasks and pre-trained models.
+- Datasets library: A library for managing and loading datasets.
+- tqdm: A library for creating progress bars to monitor code execution progress.
+- numpy: A library for numerical computations and data manipulation.
+- pandas: A library for data manipulation and analysis in Python.
+- torch: The PyTorch library for deep learning.
+- os: The Python standard library module for interacting with the operating system.
 
 ### Installation
 
